@@ -1,0 +1,7 @@
+conda create -n skin python==3.6
+conda activate skin
+pip install -r requirements.txt
+pip install numpy
+pip install tensorflow
+pip install flask==1.1.4
+python app.py
